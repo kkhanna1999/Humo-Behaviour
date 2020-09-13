@@ -15,12 +15,41 @@ class MyAppState extends State<MyApp> {
   var totalScore=0;
   static const question = [
     {
-      'questionText': 'What\'s fav animal',
+       'questionText': 'How often do you interact with people in crowd/party?',
       'answers': [
-        {'text': 'Rabbit', 'score': 10},
-        {'text': 'lion', 'score': 15},
-        {'text': 'elephant', 'score': 18},
-        {'text' : 'none' , 'score' : 5},
+        {'text': 'very often', 'score': 20},
+        {'text': 'often', 'score': 15},
+        {'text': 'sometimes', 'score': 10},
+        {'text' : 'rarely' , 'score' : 5},
+      ]
+    },
+    {
+      'questionText': 'When in typical situations do you take decisions of your mind or heart?',
+      'answers': [
+        {'text': 'mind', 'score': 20},
+        {'text': 'heart', 'score': 15},
+        {'text': 'none', 'score': 5},
+      ]
+    },
+    'questionText': 'When struct in difficult situations, How often Do u take help of others?',
+      'answers': [
+        {'text': 'Always', 'score': 5},
+        {'text': 'sometimes', 'score': 10},
+        {'text': 'rarely', 'score': 15},
+      ]
+    },
+    'questionText': 'How often you remember your dreams? ',
+      'answers': [
+        {'text': 'Always', 'score': 15},
+        {'text': 'sometimes', 'score': 10},
+        {'text': 'rarely', 'score': 5},
+      ]
+    },
+    'questionText': 'Does your role model for you changes frequently?',
+      'answers': [
+        {'text': 'Yes', 'score': 5},
+        {'text': 'No', 'score': 10},
+        {'text': 'Don\'t know', 'score': 0},
       ]
     },
     {
@@ -29,6 +58,14 @@ class MyAppState extends State<MyApp> {
         {'text': 'blue', 'score': 10},
         {'text': 'green', 'score': 15},
         {'text': 'pink', 'score': 8},
+        {'text' : 'none' , 'score' : 5},
+      ]
+    },
+      'questionText': 'What\'s fav animal',
+      'answers': [
+        {'text': 'Rabbit', 'score': 10},
+        {'text': 'lion', 'score': 15},
+        {'text': 'elephant', 'score': 18},
         {'text' : 'none' , 'score' : 5},
       ]
     },
