@@ -1,5 +1,5 @@
 
-# HumoQuiz - Behaviour Analyzer for human.
+# Humo Behaviour - Behaviour Analyzer for human.
 
 ## Overview:- 
 
